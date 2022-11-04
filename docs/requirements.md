@@ -7,6 +7,7 @@
 - As Bristol Waste I want more access to recycling aorund the city to in turn mean there's less stress on us.
 - As an climate change activist, I would like everyone to locate these banks to reduce the wrong waste.
 - As a private cleaner I would like more people to know where local recycling banks are to reduce the waste that is wrongly dumped on us to clean.
+- As a shop owber/manager/worker, I need to be able to see how much we can reduce waste and I want the public to help.
 
 ### Actors
 Pretty much everyone.
