@@ -39,6 +39,8 @@ TODO: create a list of functional requirements.
 
 <Action><Result><Object>
 Get // user location // returning the Default Location if Access is Denied
+Query // For nearest Recycling Banks // Using the Recycling Bank dataset
+List // Closest Bank // Using QUERY Results
 
 ### Non-Functional Requirements
 TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.
