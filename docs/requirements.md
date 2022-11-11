@@ -17,29 +17,16 @@ TODO: Describe each use case (one per team member).
     Give each use case a unique ID, e.g. UC1, UC2, ...
     Summarise these using the use-case template below.
 
-| TODO: USE-CASE ID e.g. UC1, UC2, ... | TODO: USE-CASE NAME | 
-| -------------------------------------- | ------------------- |
-| **Description** | TODO: Goal to be achieved by use case and sources for requirement |
-| **Actors** | TODO: List of actors involved in use case |
-| **Assumptions** | TODO: Pre/post-conditions if any</td></tr>
-| **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
-| **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
 
-TODO: Your Use-Case diagram should include all use-cases.
-
-![Insert your Use-Case Diagram Here](images/use-case.png)
-
-| TODO: USE-CASE ID  = UC1 | USE-CASE NAME = GP | 
+| TODO: USE-CASE ID  = UC1 | USE-CASE NAME = Those wanting to Recycle | 
 | -------------------------------------- | ------------------- |
 | **Description** | General public. So what this means for us is that the public need a fast and easy way to locate the said banks. |
 | **Actors** | Nearly All of them |
-| **Assumptions** | TODO: Pre/post-conditions if any</td></tr>
-| **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
-| **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
+| **Assumptions** | They have to be in Bristol as location would be asked of for the user
+| **Steps** | Get the user's location -- Query database for the amount of banks -- Checklist for the type of item they would like to recycle. |
+| **Variations** | Checklist and User's Location may be not be available. |
+| **Non-functional** | Automatically list the Nearest Bank when the location is found.|
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
 ## Software Requirements Specification
