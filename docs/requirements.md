@@ -37,6 +37,9 @@ TODO: create a list of functional requirements.
     Indicate which UC the requirement comes from.
 
 
+<Action><Result><Object>
+Get // user location // returning the Default Location if Access is Denied
+
 ### Non-Functional Requirements
 TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.
 Give each non-functional requirement a unique ID. e.g. NFR1, NFR2, ...
