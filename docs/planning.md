@@ -30,8 +30,8 @@ Actors:
 
 Systems: 
 - Open Data -> The source of our data
-- Database (Backend) - To present even more data perhaps? To track changes and cross reference status of bins (maybe?) //**nonessential**
-- Map Integration / Google Maps - Allows for a more user friendly experience //**nonessential**
+- Database (Backend) - To present even more data perhaps? To track changes and cross reference status of bins (maybe?) // **Non-Essential**
+- Map Integration / Google Maps - Allows for a more user friendly experience //  **Non-Essential**
 - HTML / NodeJS - What we will be using to code up and export import etc.
 - Drawings to clarify - Diagrams and drawings to clarify and streamline our direction with respect to development plan
 
