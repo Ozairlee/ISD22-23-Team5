@@ -55,7 +55,10 @@ TODO: create a list of functional requirements.
 * List // Closest Bank // Using QUERY Results
 
 ### Non-Functional Requirements
-TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.
-Give each non-functional requirement a unique ID. e.g. NFR1, NFR2, ...
+These are Qualities and Attributes that we will try to match and better the website on:
 
-Indicate which UC the requirement comes from.
+- **NFR1:** Portability as **UC1** would like to know where one is on the go so optimising for a phone will be needed. A test we can do to make sure it works is to use a phone and see if the website loads correctly without any downloads.
+- **NFR2:** Maintainability, especially Changeability just incase **UC2** has notified us of incorrect data that was given or incorrect information that is written. We can't really test this until we contact some companies that run it.
+- **NFR3:** Functionality will be another one to see if our FRs do live up to what was discussed. An attribute of this we can discuss is if the Databases do handle a query correctly or if the checklist actually filters correctly etc. A test we can do is a series of checks and limit tests to see what it can handle and if it will throw any errors when it's towards the limit. This would come from **UC1** mostly as most of the time too many commands input does end up slowing and sometimes crashing the website so doing so will help QOL.
+
+
