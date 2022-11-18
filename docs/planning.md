@@ -3,37 +3,35 @@
 ## Business Case
 
 ### Problem statement
-Bristol City Council allow for open data to be accessed about **Recycling Banks**. We will be using this open data to allow for the public to find and locate the closest Recycling Banks with certan criteria.
+Bristol City Council allow for open data to be accessed relating to placement of **Recycling Banks**. We will be using this open data to allow for the public to locate the closest Recycling Banks given certan criteria.
 
 ### Business benefits
-- Efficient in locating the Banks and specifying criteria to fit the client
-- For other Businesses, they can add Recycling Banks seeing the data on how many people recycle in that said area
-- Creates traffic towards businesses and also allows for a multi-purpose visit, for example: Recycling just before you shop.
-- 
+Businesses, as well as consumers frequenting businesses, would see many positive benefits from their ability to easily and swiftly examine recyling bank data. These benefits comprise:
+- Increased efficiency in location of recycling banks according to the specific criteria of end users.
+- Businesses without recycling facilities can examine the need for recycling banks and objectively observe data relating to the number persons recycling in their area.
+- Can create traffic towards local business and enable consumers to streamline their waste disposal in an ethically conscious fashion, i.e: recycling waste conveniently before shopping.
 
-### Options Considered: 
-- Weekly bin collection from the Council.
-- Using normal bins that don't allow recycling which is worse for the environment.
-- Littering.
-- Using Google and Apple Maps.
+### Options Considered:
+Without knowledge of the nearest civic amenity site, end users are left at a loss and may turn to inferior and/or inefficient waste disposal alternatives. They may wait for weekly bin collection from the Council. They may end up using normal bins the contents of which aren't recycling - which is worse for the environment. They may even turn to littering. One may attempt to find a solution using Google and Apple Maps, but there is rarely sufficient information on these apps to make such decisions.
 
 ### Expected Risks:
-- Waste of resources as certain people won't use it.
-- Data set may not be kept updated.
-- Out of order bin.
-- Not cleaned or cleared properly. Could lead to infestations.
-- Properly trained people may be scarce, could be disposed of wrong.
+There are also multiple caveats to our implementation of this service:
+- It is important to consider than it will be an inevitable waste of resources with respect to those certain people who won't use it.
+- The data set may not be kept updated/will require maintenance to remain accurate. If a bin is out of order, for example, the data will need to change.
+- If the bins themselves are not cleaned and cleared properly they could risk suffering infestation.
+- Appropriately trained persons may be scarce; misuse of bins could be a possibility, items wrongly disposed of.
 
 ## Project Scope:
 
-Actors: 
+Actors:
+
 - NPCs, Council / Recycling / Eco-Friendly Publics
 
 Systems: 
-- Open Data -> Where our data will be taken from
-- Database (Backend) - To present even more data perhaps?
-- Map Integration / Google Maps - Allows for a more user friendly experience
+- Open Data -> The source of our data
+- Database (Backend) - To present even more data perhaps? To track changes and cross reference status of bins (maybe?) //**nonessential**
+- Map Integration / Google Maps - Allows for a more user friendly experience //**nonessential**
 - HTML / NodeJS - What we will be using to code up and export import etc.
-- Drawings to clarify - Diagrams and Drawings to clarify 
+- Drawings to clarify - Diagrams and drawings to clarify and streamline our direction with respect to development plan
 
 ![Insert your Context Diagram Here](images/context.png)
