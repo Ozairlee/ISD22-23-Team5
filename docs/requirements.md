@@ -42,7 +42,10 @@ General Public, Council, Maintainers and Companies.
 | **Steps** | Users have to use the system to create data. The council will then use that data to start analysis. Having and Admin login to the website to check further. Finally be able to distinguish and see if there are bins needed   |
 | **Variations** | Checklist and User's Location may be not be available. |
 | **Non-functional** | If the admin login actually works. |
-| **Issues** | Updating the database relies solely on the Open Data Website. - Not having enough data to use ot|
+| **Issues** | Updating the database relies solely on the Open Data Website. - Not having enough data to use to start an investigation.|
+
+### Use Case Diagram
+![Insert your Context Diagram Here](images/RecyclingBankFinder.png)
 
 ## Software Requirements Specification
 Below we will be listing our Software Requirements specific to the User Cases.
