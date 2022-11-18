@@ -13,11 +13,6 @@
 General Public, Council, Maintainers and Companies.
 
 ### Use Cases
-TODO: Describe each use case (one per team member).
-    Give each use case a unique ID, e.g. UC1, UC2, ...
-    Summarise these using the use-case template below.
-
-
 
 | UC1 | Those wanting to Recycle | 
 | -------------------------------------- | ------------------- |
@@ -38,6 +33,16 @@ TODO: Describe each use case (one per team member).
 | **Variations** | Checklist and User's Location may be not be available. |
 | **Non-functional** | Automatically list the Nearest Bank when the location is found.|
 | **Issues** | Updating the database relies solely on the Open Data Website. |
+
+| UC3 | Council Analysis | 
+| -------------------------------------- | ------------------- |
+| **Description** | This would be the council having access to the data to analyse the concentration of bins and see whether we need more in certain areas.
+| **Actors** | Council, Maintainers and Companies. |
+| **Assumptions** |  Would have to have access to the backend and also access to changing OpenDataBristol APIs.
+| **Steps** | Users have to use the system to create data. The council will then use that data to start analysis. Having and Admin login to the website to check further. Finally be able to distinguish and see if there are bins needed   |
+| **Variations** | Checklist and User's Location may be not be available. |
+| **Non-functional** | If the admin login actually works. |
+| **Issues** | Updating the database relies solely on the Open Data Website. - Not having enough data to use ot|
 
 ## Software Requirements Specification
 Below we will be listing our Software Requirements specific to the User Cases.
@@ -60,5 +65,4 @@ These are Qualities and Attributes that we will try to match and better the webs
 - **NFR1:** Portability as **UC1** would like to know where one is on the go so optimising for a phone will be needed. A test we can do to make sure it works is to use a phone and see if the website loads correctly without any downloads.
 - **NFR2:** Maintainability, especially Changeability just incase **UC2** has notified us of incorrect data that was given or incorrect information that is written. We can't really test this until we contact some companies that run it.
 - **NFR3:** Functionality will be another one to see if our FRs do live up to what was discussed. An attribute of this we can discuss is if the Databases do handle a query correctly or if the checklist actually filters correctly etc. A test we can do is a series of checks and limit tests to see what it can handle and if it will throw any errors when it's towards the limit. This would come from **UC1** mostly as most of the time too many commands input does end up slowing and sometimes crashing the website so doing so will help QOL.
-
-
+- **NFR4:** Usability as **UC1** would for sure like to see the closest Recycling Bank within a mile at first. If the user has none within a mile, it will open up the quick search to 5 miles. If it is exactly 1 mile, it will include this as the database would handle this as a double. A test that can be carried out is to just check if it even works.
