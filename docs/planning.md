@@ -22,6 +22,7 @@ There are also multiple caveats to our implementation of this service:
 - Appropriately trained persons may be scarce; misuse of bins could be a possibility, items wrongly disposed of.
 
 ## Project Scope:
+Our Project scope consists of the people using the website and whatwe will use to develop it.
 
 Actors:
 
@@ -34,4 +35,4 @@ Systems:
 - HTML / NodeJS - What we will be using to code up and export import etc.
 - Drawings to clarify - Diagrams and drawings to clarify and streamline our direction with respect to development plan
 
-![Insert your Context Diagram Here](images/context.png)
+![Insert your Context Diagram Here](images/planning.png)
