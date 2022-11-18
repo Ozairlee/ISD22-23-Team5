@@ -58,14 +58,17 @@ TODO: create a list of functional requirements.
 
 
 <Action><Result><Object>
+Below are the Actions which lead to Results which in turn affect an Object.
 * Get // user location // returning the Default Location if Access is Denied
 * Query // For nearest Recycling Banks // Using the Recycling Bank dataset
 * List // Closest Bank // Using QUERY Results
 
 ### Non-Functional Requirements
-These are Qualities and Attributes that we will try to match and better the website on:
+These are Qualities and Attributes that are taken from ISO 9126 software quality:
 
-- **NFR1:** Portability as **UC1** would like to know where one is on the go so optimising for a phone will be needed. A test we can do to make sure it works is to use a phone and see if the website loads correctly without any downloads.
+- **NFR1:** Portability and Efficiency as **UC1** would like to know where one is on the go so optimising for a phone will be needed. A test we can do to make sure it works is to use a phone and see if the website loads correctly without any downloads. The further testing would be to check if the client is lightweight so it can be loaded within a second in less than favourable network conditions. (<1mpbs)
 - **NFR2:** Maintainability, especially Changeability just incase **UC2** has notified us of incorrect data that was given or incorrect information that is written. We can't really test this until we contact some companies that run it.
 - **NFR3:** Functionality will be another one to see if our FRs do live up to what was discussed. An attribute of this we can discuss is if the Databases do handle a query correctly or if the checklist actually filters correctly etc. A test we can do is a series of checks and limit tests to see what it can handle and if it will throw any errors when it's towards the limit. This would come from **UC1** mostly as most of the time too many commands input does end up slowing and sometimes crashing the website so doing so will help QOL.
 - **NFR4:** Usability as **UC1** would for sure like to see the closest Recycling Bank within a mile at first. If the user has none within a mile, it will open up the quick search to 5 miles. If it is exactly 1 mile, it will include this as the database would handle this as a double. A test that can be carried out is to just check if it even works.
+- **NFR5:** Security would allow for **UC2 AND UC3** to login to the website and allow submission to change data or alert that data is being investigated.
+- **NFR6:** Accuracy would improve the system as a whole as **UC1, UC2 AND UC3** can see if the banks are in the correct location as to not be mislead, further Reliability in terms of ISO 9126, the website would also check if the bin is set to a certain standard and if the data provided is true.
