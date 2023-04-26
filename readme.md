@@ -4,6 +4,11 @@ In this project, as a group we will be working to extract data from OpenDataBris
 
 Group Members: Ozair Ali, Abdul Noor
 
+Use Case 1 and 2 were made by Ozair Ali.
+
+Use Case 3 and the following diagram for the scenarios were made by 
+Abdul Noor.
+
 1. [Planning](docs/planning.md)
 2. [Requirements](docs/requirements.md)
 3. [Design](docs/design.md)
