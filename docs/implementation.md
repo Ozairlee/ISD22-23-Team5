@@ -23,13 +23,16 @@ TODO: Provide an outline of the project folder structure and the role of each fi
 provide a table listing the number of jslint warnings/reports for each module.
 
 - Package.json just repeats what our title is and what version we are at with the packaging.
-- 
+- Landing.js is our home page for the website with a welcome and everything.
+- LoginAPI.js is out login API that utilises my own laptop as a server and sends a POST request. When the user clicks on the login button, it encodes the Username and Password into the body that gets sent to the server. When the request reaches the server, it sends the JSON data only. The rest of the API is more client side based. Errors that accured were getting connected to the server and also 
+
 
 ## Software Architecture
-TODO: Describe the major components of your architecture. Are any particular architectural styles being used?
 
 - Our major components were having to types of user, one with normal accesss **(UC1)**, another with elevated access which meant that there was a login system **(UC2 AND 3)**. As you can see in the diagram below, they also have different things that can be done with the website.
 - Another component that is there is to host a local server on an older laptop or tablet which shouldn't be under too much stress, so we can keep it running for about a week straight no issues. From that we would collect data and return it to the **UC2 AND 3** Users.
 - One Architectural style I can think of that this resembles is Application Architecture. Splitting up your users and having distinct features for each.
+
+## Diagram 
 
 ![Insert your component Diagram here](images/component.png)
