@@ -12,28 +12,71 @@
 <body>
     <header>
         <h1>Team 5's Recycling Bank Locator</h1>
+        <div class="container1">
+            <form action="https://opendata.bristol.gov.uk/explore/dataset/recycling-banks/table/">
+                <button id="login">LOG IN</button>
+                <a id="repository" href="https://github.com/Ozairlee/ISD22-23-Team5.git">Github Repository</a>
+            </form>
+        </div>
     </header>
-    <a href="">Github Repository</a>
-    <form action="https://opendata.bristol.gov.uk/explore/dataset/recycling-banks/table/">
-        <button>LOG IN</button>
-    </form>
-    <h3>Map</h3>
-    <h3>Graphs</h3>
-    <h3>table</h3>
-    <h3>Information</h3>
-    <h2>Active Filters</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia aperiam autem, repellat ab tempora voluptas,
-        laudantium vero saepe ad libero, atque minus quia est! Veniam dolorum iure nihil deleniti aliquam?
-        Suscipit harum fugit nobis architecto, tempora asperiores autem quia mollitia officiis! Repellendus et molestiae
-        vitae qui magni inventore explicabo iure, eum ad ratione sit cupiditate iusto in voluptas nam temporibus!
-        Veniam sed sequi cumque, repudiandae voluptatem voluptatibus. Fugit maiores facere numquam hic rerum soluta
-        nihil eius, consectetur quas laudantium perspiciatis corrupti doloribus. Veritatis maxime enim quasi, velit eos
-        sit vitae.</p>
-    <form action="www.google.com">
-        <button>Clear Filters</button>
-    </form>
-    <form action="/filters">
-        <h4>Locality:</h4>
+    <table id="maintable">
+        <thead>
+            <tr>
+                <th id="activefilters" rowspan="100">
+                    <h2>Active Filters</h2>
+                </th>
+                <th id="map">
+                    <form action="kdvcbasd">
+                        <button>
+                            <h3>Map</h3>
+                        </button>
+                    </form>
+                </th>
+                <th id="table">
+                    <form action="jkdvs">
+                        <button>
+                            <h3>Table</h3>
+                        </button>
+                    </form>
+                </th>
+                <th id="graphs">
+                    <form action="sdcvbskvb">
+                        <button>
+                            <h3>Graphs</h3>
+                        </button>
+                    </form>
+                </th>
+                <th id="info">
+                    <form action="">
+                        <button>
+                            <h3>Information</h3>
+                        </button>
+                    </form>
+                </th>
+            </tr>
+        </thead>
+        <tbody id="body">
+            <tr>
+                <td>
+                    <p>Locality: </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Recycling Object:</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <form action="www.google.com">
+                        <button id="clear">Clear Filters</button>
+                    </form>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <form id="filters" action="/filters">
+        <h4 id="locality">Locality:</h4>
         <div>
             <label for="Brislington">Brislington</label>
             <input type="radio" name="Area" id="Brislington" value="Brislington">
@@ -66,7 +109,7 @@
             <label for="Redland">Redland</label>
             <input type="radio" name="Area" id="Redland" value="Redland">
         </div>
-        <h4>Recycling Object:</h4>
+        <h4 id="recycling">Recycling Object:</h4>
         <div>
             <label for="Cardboard">Cardboard</label>
             <input type="radio" name="Material" id="Cardboard" value="Cardboard">
@@ -76,11 +119,12 @@
             <input type="radio" name="Material" id="Plastic" value="Plastic">
         </div>
         <div>
-            <label for="Metal">Mid:</label>
+            <label for="Metal">Metal</label>
             <input type="radio" name="Material" id="Metal" value="Metal">
         </div>
-        <button>Submit</button>
+        <button id="submit">Submit</button>
     </form>
+
 
 
 

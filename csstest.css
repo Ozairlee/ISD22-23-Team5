@@ -1,8 +1,107 @@
 a {
-    color: rgb(94, 55, 239);
+    color: #5E37EF;
+    text-align: center;
 }
 
 button {
+    color: black;
+    background-color: white;
+    width: 200px;
+    padding: 20px;
+    border-color: black;
+
+}
+
+header {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(https://media.wired.com/photos/59269cd37034dc5f91bec0f1/191:100/w_1280,c_limit/GoogleMapTA.jpg);
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    padding: 50px;
+}
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#clear {
+    width: 200px;
+    padding: 20px;
+    border-color: black;
+    background-color: #5E37EF;
     color: white;
-    background-color: rgb(94, 55, 239);
+
+}
+
+.container1 {
+    text-align: center;
+}
+
+
+h3 {
+    text-align: center;
+}
+
+#activefilters {
+    background-color: #B299FC;
+    padding: 30px;
+}
+
+#filters {
+    line-height: 35px;
+    border-color: black;
+
+}
+
+#locality {
+    color: #B299FC;
+}
+
+#recycling {
+    color: #B299FC;
+}
+
+#map {
+    width: 20%;
+
+}
+
+#table {
+    width: 40%;
+}
+
+#graph {
+    width: 40%;
+}
+
+#info {
+    width: 60%;
+}
+
+#body {
+    line-height: 40px;
+}
+
+#submit {
+    background-color: #5E37EF;
+    border-color: black;
+    padding: 20px;
+    width: 100px;
+    color: white;
+}
+
+#login {
+    background-color: #5E37EF;
+    border-color: black;
+    padding: 20px;
+    width: 100px;
+    color: white;
+}
+
+#repository {
+    font-weight: 200;
 }
