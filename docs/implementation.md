@@ -23,8 +23,13 @@ TODO: Provide an outline of the project folder structure and the role of each fi
 provide a table listing the number of jslint warnings/reports for each module.
 
 - Package.json just repeats what our title is and what version we are at with the packaging.
-- Landing.js is our home page for the website with a welcome and everything.
-- LoginAPI.js is out login API that utilises my own laptop as a server and sends a POST request. When the user clicks on the login button, it encodes the Username and Password into the body that gets sent to the server. When the request reaches the server, it sends the JSON data only. The rest of the API is more client side based. Errors that accured were getting connected to the server and also 
+- LoginAPI.js is our login API that utilises my own laptop as a server and sends a POST request. When the user clicks on the login button, it encodes the Username and Password into the body that gets sent to the server. When the request reaches the server, it sends the JSON data only. The rest of the API is more client side based. Errors that accured were getting connected to the server and also sorting out how the login information should have been sorted. So in the file the JSON format is explained.
+- MapAPI.js is our GoogleMaps API to integrate a map into our main page of the website. It will automatically sort the data using SQL queries to sort it to the one closest to the user. Issues we had run into was to do with integration and generating the API key.
+- SQLConnection.js is to connect to the SQL Database (shown in lecture).
+- SimpleServer.js is to start a server and be able to run our website off that (shown in lecture).
+- sortDistance.sql is our SQL script to pre-sort the data to the closest banks to the user. 
+- csstest.css is our testing site for the CSS elements to do with the main page.
+- mainpage.html is the landing page for the website. This is designed in correlation to our wireframe.
 
 
 ## Software Architecture

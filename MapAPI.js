@@ -10,4 +10,6 @@ async function initMap() {
   });
 }
 
+// An API key hasn't been added yet it will be done.
+
 initMap();
