@@ -1,7 +1,7 @@
 SET @user_lat = 50.5006;
 SET @user_lon = -2.5474;
 
-SELECT site_name, Postcode,
+SELECT Site_     Name, Postcode,
 substring_index(location_1,'.',1) AS lat,
 substring_index(location_1,'.',1) AS lon,
 
@@ -10,6 +10,6 @@ substring_index(location_1,'.',1) AS lon,
     + cos(radians((SELECT lat))) * cos(radians(@user_lat))
     * POW(sin(radians((@user_lon - (SELECT lon)) / 2)),2)
 )) as distance /*distance in kms*/
-FROM recycling-banksRe
+FROM RBanks
 ORDER BY distance LIMIT 10;
 
