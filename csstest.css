@@ -53,10 +53,10 @@ h3 {
 }
 
 #filters {
-    line-height: 35px;
-    border-color: black;
-
-}
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+  }
 
 #locality {
     color: #B299FC;
@@ -68,8 +68,23 @@ h3 {
 
 #map {
     width: 20%;
+  }
 
+.container {
+    vertical-align: top;
+    text-align: :left;
 }
+
+#mapsss {
+    text-align: right;;
+}
+
+  @media only screen and (max-width: 768px) {
+    #filters, #map {
+      display: block;
+      width: auto;
+    }
+  } 
 
 #table {
     width: 40%;
@@ -109,4 +124,4 @@ h3 {
 
 #rec {
     line-height: 35px;
-}
+} 
