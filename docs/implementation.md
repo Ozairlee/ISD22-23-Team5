@@ -1,8 +1,5 @@
 # Implementation
 
-## Introduction
-TODO: Describe the system implemented (Describe the dataset. Are there any known issues? Describe any configuration data).
-
 ### What is this Dataset?
 - This Dataset is to locate recycling banks across Bristol and the surrounding Area. The Dataset consists of the IDs, Addresses, What can be recycled and more.
 - The reason why we chose this Dataset was that as a group (more like a duo) we believed that Bristol is an environmentally healthy city and wanting to push that agenda even more we thought we should help the public recycle more.
@@ -19,8 +16,6 @@ TODO: Describe the system implemented (Describe the dataset. Are there any known
 - Sometimes the dataset would also show incorrect but it was to do with SQL Workbench.
 
 ## Project Structure
-TODO: Provide an outline of the project folder structure and the role of each file within it (not the contents of node_modules).
-provide a table listing the number of jslint warnings/reports for each module.
 
 - Package.json just repeats what our title is and what version we are at with the packaging.
 - LoginAPI.js is our login API that utilises my own laptop as a server and sends a POST request. When the user clicks on the login button, it encodes the Username and Password into the body that gets sent to the server. When the request reaches the server, it sends the JSON data only. The rest of the API is more client side based. Errors that accured were getting connected to the server and also sorting out how the login information should have been sorted. So in the file the JSON format is explained.
