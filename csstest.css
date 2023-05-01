@@ -29,7 +29,7 @@ footer {
 }
 
 #clear {
-    width: 10%;
+    width: 8%;
     padding: 20px;
     border-color: black;
     background-color: #5E37EF;
@@ -43,7 +43,7 @@ footer {
 
 
 h3 {
-    text-align: center;
+    text-align: top;
 }
 
 
@@ -56,14 +56,16 @@ h3 {
 #filters {
     display: inline-block;
     vertical-align: top;
-    margin-right: 20px;
+    margin-right: 50px;
 }
 
 #locality {
+    text-align: left;
     color: #B299FC;
 }
 
 #recycling {
+    text-align: left;
     color: #B299FC;
 }
 
@@ -72,12 +74,13 @@ h3 {
 }
 
 .container {
-    text-align: right;
+    text-align: left;
 }
 
 #mapsss {
-    text-align: right;
-    width: 87%;
+    text-align: left;
+    width: 85%;
+    ;
 }
 
 @media only screen and (max-width: 768px) {
