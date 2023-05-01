@@ -49,6 +49,7 @@ h3 {
 #activefilters {
     background-color: #B299FC;
     padding: 30px;
+    width: 6%;
 }
 
 #filters {
@@ -82,10 +83,6 @@ h3 {
     width: 60%;
 }
 
-#body {
-    line-height: 40px;
-}
-
 #submit {
     background-color: #5E37EF;
     border-color: black;
@@ -104,4 +101,12 @@ h3 {
 
 #repository {
     font-weight: 200;
+}
+
+#loc {
+    line-height: 35px;
+}
+
+#rec {
+    line-height: 35px;
 }
