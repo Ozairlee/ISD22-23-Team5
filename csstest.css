@@ -29,7 +29,7 @@ footer {
 }
 
 #clear {
-    width: 200px;
+    width: 10%;
     padding: 20px;
     border-color: black;
     background-color: #5E37EF;
@@ -46,17 +46,18 @@ h3 {
     text-align: center;
 }
 
-#activefilters {
+
+#mainmenu {
     background-color: #B299FC;
     padding: 30px;
-    width: 6%;
+    width: 12%;
 }
 
 #filters {
     display: inline-block;
     vertical-align: top;
     margin-right: 20px;
-  }
+}
 
 #locality {
     color: #B299FC;
@@ -68,23 +69,25 @@ h3 {
 
 #map {
     width: 20%;
-  }
+}
 
 .container {
-    vertical-align: top;
-    text-align: :left;
+    text-align: right;
 }
 
 #mapsss {
-    text-align: right;;
+    text-align: right;
+    width: 87%;
 }
 
-  @media only screen and (max-width: 768px) {
-    #filters, #map {
-      display: block;
-      width: auto;
+@media only screen and (max-width: 768px) {
+
+    #filters,
+    #map {
+        display: block;
+        width: auto;
     }
-  } 
+}
 
 #table {
     width: 40%;
@@ -102,7 +105,7 @@ h3 {
     background-color: #5E37EF;
     border-color: black;
     padding: 20px;
-    width: 100px;
+    width: 5%;
     color: white;
 }
 
@@ -124,4 +127,4 @@ h3 {
 
 #rec {
     line-height: 35px;
-} 
+}
