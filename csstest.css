@@ -29,7 +29,7 @@ footer {
 }
 
 #clear {
-    width: 8%;
+    width: 100%;
     padding: 20px;
     border-color: black;
     background-color: #5E37EF;
@@ -38,7 +38,9 @@ footer {
 }
 
 .container1 {
+    width: 100%;
     text-align: center;
+    align-items: center;
 }
 
 
@@ -50,7 +52,7 @@ h3 {
 #mainmenu {
     background-color: #B299FC;
     padding: 30px;
-    width: 12%;
+    width: 6%;
 }
 
 #filters {
@@ -79,7 +81,7 @@ h3 {
 
 #mapsss {
     text-align: left;
-    width: 85%;
+    width: 94%;
     ;
 }
 
@@ -108,7 +110,7 @@ h3 {
     background-color: #5E37EF;
     border-color: black;
     padding: 20px;
-    width: 5%;
+    width: 100%;
     color: white;
 }
 
@@ -125,9 +127,22 @@ h3 {
 }
 
 #loc {
-    line-height: 35px;
+
+    width: 20%;
+    text-align: center;
 }
 
 #rec {
-    line-height: 35px;
+    width: 40%;
+    text-align: center;
+}
+
+#activefilters {
+    width: 6%;
+    text-align: center;
+}
+
+
+#ac {
+    text-align: center;
 }
